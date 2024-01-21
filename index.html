@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Job Portal</title>
+</head>
+<body>
+    <header>
+        <h1>Your Job Portal</h1>
+    </header>
+
+    <main>
+        <section id="job-list">
+            <!-- Job listings will be dynamically added here -->
+        </section>
+
+        <section id="job-form">
+            <h2>Add a New Job</h2>
+            <form id="new-job-form">
+                <label for="job-title">Job Title:</label>
+                <input type="text" id="job-title" required>
+
+                <label for="company">Company:</label>
+                <input type="text" id="company" required>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" required>
+
+                <button type="submit">Post Job</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

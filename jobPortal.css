@@ -1,0 +1,177 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: rgb(22, 22, 86);
+    color: #fff;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    gap: 3vw;
+    padding-top: 4vh;
+}
+.logo{
+    margin-right: 15vw;
+}
+.dropdown button{
+    width: 8vw;
+    color: black;
+}
+.nav button{
+    width: 6vw;
+    height: 6vh;
+    border-radius: 5px;
+    border: none;
+    background-color: blanchedalmond;
+
+}
+.nav button a{
+    text-decoration: none;
+    color: black;
+}
+.folder{
+    width: 100%;
+    height: 67vh;
+    margin: 12vh 0 0 0;
+
+}
+.folder span{
+    color: coral;
+    font-size: 55px;
+}
+.folder h1{
+    color: blanchedalmond;
+    font-size: 50px;
+}
+.folder p{
+    margin: 3vh 0 3vh 5vw;
+    justify-content: center;
+    font-size: 20px;
+}
+.folder button{
+    padding: 13px;
+    width: 12vw;
+    border-radius: 50px;
+    background-color: coral;
+    border: none;
+    color: #fff;
+    font-weight:700;
+    margin: 5vh 0 0 0;
+}
+.search-bar{
+    /* width: 100%; */
+    height: 16vh;
+    margin-left: 0;
+    background-color: rgb(223, 104, 60);
+
+}
+.search-bar form input{
+    width: 40vw;
+    height: 8vh;
+    background-color: bisque;
+    border: 2px solid gainsboro;
+    color: black;
+    border-radius: 7px;
+    margin: 4vh 0 0 19vw;
+}
+.search-bar form button{
+    width: 9vw;
+    height: 8vh;
+    background-color: rgb(20, 106, 109);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+}
+.container2{
+    border: 1px solid #fff;
+    margin-top: 10vh;
+    height: 100vh;
+    background-color: rgb(217, 198, 169);
+    color: rgb(95, 55, 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo h3 span, .footer h3 span{
+    color: coral;
+}
+.container2 h2{
+    margin: 10vh 0 4vh 0;
+    font-size: 45px;
+}
+.container2 p{
+    font-weight: 400;
+    font-size: 20px;
+}
+.cards{
+    display: flex;
+    gap: 60px;
+    margin-top: 10vh;
+}
+.card{
+    width: 15rem;
+    height: 20rem;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+    background-color: #8b5836;
+    height: auto;
+}
+.container3 h1{
+    color: bisque;
+}
+.job-cards{
+    gap: 40px;
+    display: flex;
+}
+.card1{
+    width: 20vw;
+    background-color: papayawhip;
+    color: black;
+    border-radius: 10px;
+    padding: 8px;
+    height: 50vh;
+
+}
+.box1, .box2{
+    display: flex;
+    justify-content: space-between;
+}
+.card1 button{
+    margin: 4vh 0 0 5vw;
+    height: 8vh;
+    width: 9vw;
+    background-color:  rgb(34, 34, 101);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+
+}
+.view-more-btn{
+    margin: 8vh 0 8vh 0;
+    width: 10vw;
+    height: 9vh;
+    background-color: rgb(41, 67, 2);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+.footer a{
+    text-decoration: none;
+    color: antiquewhite;
+}
